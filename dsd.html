@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpeedTest</title>
+    <title>Speed Test Results</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>SpeedTest</h1>
-        <button id="startBtn">Startēt SpeedTest</button>
-        <button id="stopBtn">Apstādināt SpeedTest</button>
+        <h1>Speed Test Results</h1>
+        <div id="chart-container">
+            <canvas id="speed-chart"></canvas>
+        </div>
+        <button id="run-speed-test">Run Speed Test</button>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
